@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 
 
 //register dan login
-Route::post('auth/register','API\AuthController@register');
-    // ->middleware('auth:api','superadmin' && 'admin'); //pembuatan akun admin dan petugas
+Route::post('auth/register','API\AuthController@register')
+    ->middleware('auth:api','superadmin' && 'admin'); //pembuatan akun admin dan petugas
 Route::post('auth/login','API\AuthController@login'); //login untuk petugas
 Route::post('auth/loginadmin','API\AuthController@loginadmin'); //login untuk admin dan superadmin
 
