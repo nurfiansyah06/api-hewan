@@ -42,11 +42,6 @@ Route::put('/users/profile','API\UserController@updateprofile')
 Route::put('/users/{id}','API\UserController@updateprofileById')
     ->middleware('auth:api','superadmin' && 'admin'); //update profile digunakan oleh admin dan superadmin
 
-Route::delete('/users/{id}','API\UserController@deleteBySuperAdmin')
-    ->middleware('auth:api','superadmin');//delete yang digunakan oleh superadmin
-Route::delete('/users/{id}','API\UserController@deleteByAdmin')
-    ->middleware('auth:api' ,'superadmin' && 'admin');//delete yang digunakan oleh admin
-
 //untuk animal
 Route::get('/animal','API\AnimalController@getDataByApprove')
     ->middleware('auth:api'); ///mendapatkan data animal yang sudah disetujui
@@ -58,4 +53,11 @@ Route::put('/animal/isapproval/{id}','API\AnimalController@setApproval')
     ->middleware('auth:api','superadmin' && 'admin'); //set approval
 Route::delete('/animal/{id}','API\AnimalController@deleteAnimal')
     ->middleware('auth:api','superadmin' && 'admin'); //delete form animal hanya untuk admin dan superadmin
+
+
+
+Route::delete('/users/{id}','API\UserController@deleteBySuperAdmin')
+    ->middleware('auth:api','superadmin');//delete yang digunakan oleh superadmin
+Route::delete('/users/{id}','API\UserController@deleteByAdmin')
+    ->middleware('auth:api' ,'superadmin' && 'admin');//delete yang digunakan oleh admin
 
