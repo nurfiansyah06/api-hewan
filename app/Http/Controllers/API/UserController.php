@@ -62,13 +62,13 @@ class UserController extends Controller
 
     public function updateprofile(Request $request)
     {
-        
+
         $user                   = User::find(Auth::user()->id);
         $user->name             = $request->name;
         $user->email            = $request->email;
-        $user->tmpt_lahir       = $request->tmpt_lahir; 
+        $user->tmpt_lahir       = $request->tmpt_lahir;
         $user->tanggal_lahir    = $request->tanggal_lahir;
-        
+
         // $user->photo            = $request->file('photo')->store('photo','public');
         $user->no_hp            = $request->no_hp;
         $user->bio              = $request->bio;
@@ -90,15 +90,15 @@ class UserController extends Controller
 
     public function updateprofileById(Request $request,$id)
     {
-        
+
         $user                   = User::find($id);
 
         if ($user->roles == 'PETUGAS') {
             $user->name             = $request->name;
             $user->email            = $request->email;
-            $user->tmpt_lahir       = $request->tmpt_lahir; 
+            $user->tmpt_lahir       = $request->tmpt_lahir;
             $user->tanggal_lahir    = $request->tanggal_lahir;
-            
+
             // $user->photo            = $request->file('photo')->store('photo','public');
             $user->no_hp            = $request->no_hp;
             $user->bio              = $request->bio;
@@ -117,20 +117,20 @@ class UserController extends Controller
         } else {
             return ResponseFormatter::error(404,'Data tidak ada');
         }
-        
 
-        
+
+
     }
 
     public function updateprofileSuperAdmin(Request $request)
     {
-        
+
         $user                   = User::where('roles','SUPERADMIN')->first();
         $user->name             = $request->name;
         $user->email            = $request->email;
-        $user->tmpt_lahir       = $request->tmpt_lahir; 
+        $user->tmpt_lahir       = $request->tmpt_lahir;
         $user->tanggal_lahir    = $request->tanggal_lahir;
-        
+
         // $user->photo            = $request->file('photo')->store('photo','public');
         $user->no_hp            = $request->no_hp;
         $user->bio              = $request->bio;
@@ -164,7 +164,7 @@ class UserController extends Controller
 
     public function deleteBySuperAdmin(Request $request, $id)
     {
-        
+
         $user = User::destroy($id);
 
         if ($user)
@@ -173,5 +173,5 @@ class UserController extends Controller
             return ResponseFormatter::error(null, 'Data tidak ada','404');
 
     }
-    
+
 }

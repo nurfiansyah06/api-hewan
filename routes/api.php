@@ -42,6 +42,14 @@ Route::put('/users/profile','API\UserController@updateprofile')
 Route::put('/users/{id}','API\UserController@updateprofileById')
     ->middleware('auth:api','superadmin' && 'admin'); //update profile digunakan oleh admin dan superadmin
 
+<<<<<<< HEAD
+=======
+Route::delete('/users/{id}','API\UserController@deleteByAdmin')
+    ->middleware('auth:api' ,'superadmin' && 'admin');//delete yang digunakan oleh admin
+Route::delete('/users/{id}','API\UserController@deleteBySuperAdmin')
+    ->middleware('auth:api','superadmin');//delete yang digunakan oleh superadmin
+
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
 //untuk animal
 Route::get('/animal','API\AnimalController@getDataByApprove')
     ->middleware('auth:api'); ///mendapatkan data animal yang sudah disetujui
@@ -54,6 +62,7 @@ Route::put('/animal/isapproval/{id}','API\AnimalController@setApproval')
 Route::delete('/animal/{id}','API\AnimalController@deleteAnimal')
     ->middleware('auth:api','superadmin' && 'admin'); //delete form animal hanya untuk admin dan superadmin
 
+<<<<<<< HEAD
 
 
 Route::delete('/users/{id}','API\UserController@deleteBySuperAdmin')
@@ -61,3 +70,5 @@ Route::delete('/users/{id}','API\UserController@deleteBySuperAdmin')
 Route::delete('/users/{id}','API\UserController@deleteByAdmin')
     ->middleware('auth:api' ,'superadmin' && 'admin');//delete yang digunakan oleh admin
 
+=======
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2

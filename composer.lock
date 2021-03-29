@@ -60,6 +60,7 @@
         },
         {
             "name": "brick/math",
+<<<<<<< HEAD
             "version": "0.9.1",
             "source": {
                 "type": "git",
@@ -70,6 +71,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/brick/math/zipball/283a40c901101e66de7061bd359252c013dcc43c",
                 "reference": "283a40c901101e66de7061bd359252c013dcc43c",
+=======
+            "version": "0.8.15",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/brick/math.git",
+                "reference": "9b08d412b9da9455b210459ff71414de7e6241cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/brick/math/zipball/9b08d412b9da9455b210459ff71414de7e6241cd",
+                "reference": "9b08d412b9da9455b210459ff71414de7e6241cd",
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 "shasum": ""
             },
             "require": {
@@ -102,6 +115,7 @@
                 "brick",
                 "math"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://tidelift.com/funding/github/packagist/brick/math",
@@ -109,6 +123,9 @@
                 }
             ],
             "time": "2020-08-18T23:57:15+00:00"
+=======
+            "time": "2020-04-15T15:59:35+00:00"
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -709,6 +726,7 @@
         },
         {
             "name": "laravel/framework",
+<<<<<<< HEAD
             "version": "v7.26.0",
             "source": {
                 "type": "git",
@@ -719,6 +737,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/f64299a11dedaaadf1cfff07b2b3220a9b791837",
                 "reference": "f64299a11dedaaadf1cfff07b2b3220a9b791837",
+=======
+            "version": "v7.25.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "fdf3d4a40447eb286ba3820768306cae64bcc0b3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/fdf3d4a40447eb286ba3820768306cae64bcc0b3",
+                "reference": "fdf3d4a40447eb286ba3820768306cae64bcc0b3",
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 "shasum": ""
             },
             "require": {
@@ -824,7 +854,10 @@
                 "nyholm/psr7": "Required to use PSR-7 bridging features (^1.2).",
                 "pda/pheanstalk": "Required to use the beanstalk queue driver (^4.0).",
                 "phpunit/phpunit": "Required to use assertions and run tests (^8.4|^9.0).",
+<<<<<<< HEAD
                 "predis/predis": "Required to use the predis connector (^1.1.2).",
+=======
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0).",
                 "pusher/pusher-php-server": "Required to use the Pusher broadcast driver (^4.0).",
                 "symfony/cache": "Required to PSR-6 cache bridge (^5.0).",
@@ -863,7 +896,11 @@
                 "framework",
                 "laravel"
             ],
+<<<<<<< HEAD
             "time": "2020-08-25T13:44:44+00:00"
+=======
+            "time": "2020-08-11T13:43:10+00:00"
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
         },
         {
             "name": "laravel/tinker",
@@ -931,6 +968,7 @@
         },
         {
             "name": "league/commonmark",
+<<<<<<< HEAD
             "version": "1.5.4",
             "source": {
                 "type": "git",
@@ -941,6 +979,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/21819c989e69bab07e933866ad30c7e3f32984ba",
                 "reference": "21819c989e69bab07e933866ad30c7e3f32984ba",
+=======
+            "version": "1.5.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/commonmark.git",
+                "reference": "2574454b97e4103dc4e36917bd783b25624aefcd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/commonmark/zipball/2574454b97e4103dc4e36917bd783b25624aefcd",
+                "reference": "2574454b97e4103dc4e36917bd783b25624aefcd",
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 "shasum": ""
             },
             "require": {
@@ -996,6 +1046,7 @@
                 "md",
                 "parser"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://enjoy.gitstore.app/repositories/thephpleague/commonmark",
@@ -1036,6 +1087,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/9be3b16c877d477357c015cec057548cf9b2a14a",
                 "reference": "9be3b16c877d477357c015cec057548cf9b2a14a",
+=======
+            "time": "2020-07-19T22:47:30+00:00"
+        },
+        {
+            "name": "league/flysystem",
+            "version": "1.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/thephpleague/flysystem.git",
+                "reference": "6e96f54d82e71f71c4108da33ee96a7f57083710"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/6e96f54d82e71f71c4108da33ee96a7f57083710",
+                "reference": "6e96f54d82e71f71c4108da33ee96a7f57083710",
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 "shasum": ""
             },
             "require": {
@@ -1107,6 +1174,7 @@
                 "sftp",
                 "storage"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://offset.earth/frankdejonge",
@@ -1114,6 +1182,9 @@
                 }
             ],
             "time": "2020-08-23T07:39:11+00:00"
+=======
+            "time": "2020-08-12T14:23:41+00:00"
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
         },
         {
             "name": "league/fractal",
@@ -1303,6 +1374,7 @@
         },
         {
             "name": "nesbot/carbon",
+<<<<<<< HEAD
             "version": "2.39.0",
             "source": {
                 "type": "git",
@@ -1313,6 +1385,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/0a41ea7f7fedacf307b7a339800e10356a042918",
                 "reference": "0a41ea7f7fedacf307b7a339800e10356a042918",
+=======
+            "version": "2.38.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/briannesbitt/Carbon.git",
+                "reference": "d8f6a6a91d1eb9304527b040500f61923e97674b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/d8f6a6a91d1eb9304527b040500f61923e97674b",
+                "reference": "d8f6a6a91d1eb9304527b040500f61923e97674b",
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 "shasum": ""
             },
             "require": {
@@ -1378,6 +1462,7 @@
                 "datetime",
                 "time"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://opencollective.com/Carbon",
@@ -1402,6 +1487,22 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/aaee038b912e567780949787d5fe1977be11a778",
                 "reference": "aaee038b912e567780949787d5fe1977be11a778",
+=======
+            "time": "2020-08-04T19:12:46+00:00"
+        },
+        {
+            "name": "nikic/php-parser",
+            "version": "v4.8.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nikic/PHP-Parser.git",
+                "reference": "8c58eb4cd4f3883f82611abeac2efbc3dbed787e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/8c58eb4cd4f3883f82611abeac2efbc3dbed787e",
+                "reference": "8c58eb4cd4f3883f82611abeac2efbc3dbed787e",
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 "shasum": ""
             },
             "require": {
@@ -1409,7 +1510,11 @@
                 "php": ">=7.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "ircmaxell/php-yacc": "^0.0.7",
+=======
+                "ircmaxell/php-yacc": "^0.0.6",
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 "phpunit/phpunit": "^6.5 || ^7.0 || ^8.0 || ^9.0"
             },
             "bin": [
@@ -1418,7 +1523,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-master": "4.9-dev"
+=======
+                    "dev-master": "4.8-dev"
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 }
             },
             "autoload": {
@@ -1440,7 +1549,11 @@
                 "parser",
                 "php"
             ],
+<<<<<<< HEAD
             "time": "2020-08-18T19:48:01+00:00"
+=======
+            "time": "2020-08-09T10:23:20+00:00"
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
         },
         {
             "name": "opis/closure",
@@ -2020,6 +2133,7 @@
         },
         {
             "name": "ramsey/uuid",
+<<<<<<< HEAD
             "version": "4.1.1",
             "source": {
                 "type": "git",
@@ -2034,6 +2148,22 @@
             },
             "require": {
                 "brick/math": "^0.8 || ^0.9",
+=======
+            "version": "4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ramsey/uuid.git",
+                "reference": "988dbefc7878d0a35f12afb4df1f7dd0bd153c43"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ramsey/uuid/zipball/988dbefc7878d0a35f12afb4df1f7dd0bd153c43",
+                "reference": "988dbefc7878d0a35f12afb4df1f7dd0bd153c43",
+                "shasum": ""
+            },
+            "require": {
+                "brick/math": "^0.8",
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 "ext-json": "*",
                 "php": "^7.2 || ^8",
                 "ramsey/collection": "^1.0",
@@ -2097,6 +2227,7 @@
                 "identifier",
                 "uuid"
             ],
+<<<<<<< HEAD
             "funding": [
                 {
                     "url": "https://github.com/ramsey",
@@ -2104,6 +2235,9 @@
                 }
             ],
             "time": "2020-08-18T17:17:46+00:00"
+=======
+            "time": "2020-07-28T16:51:01+00:00"
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
         },
         {
             "name": "spatie/fractalistic",
@@ -4946,6 +5080,7 @@
         },
         {
             "name": "phpdocumentor/reflection-docblock",
+<<<<<<< HEAD
             "version": "5.2.1",
             "source": {
                 "type": "git",
@@ -4956,6 +5091,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/d870572532cd70bc3fab58f2e23ad423c8404c44",
                 "reference": "d870572532cd70bc3fab58f2e23ad423c8404c44",
+=======
+            "version": "5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phpDocumentor/ReflectionDocBlock.git",
+                "reference": "3170448f5769fe19f456173d833734e0ff1b84df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phpDocumentor/ReflectionDocBlock/zipball/3170448f5769fe19f456173d833734e0ff1b84df",
+                "reference": "3170448f5769fe19f456173d833734e0ff1b84df",
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
                 "shasum": ""
             },
             "require": {
@@ -4994,7 +5141,11 @@
                 }
             ],
             "description": "With this component, a library can provide support for annotations via DocBlocks or otherwise retrieve information that is embedded in a DocBlock.",
+<<<<<<< HEAD
             "time": "2020-08-15T11:14:08+00:00"
+=======
+            "time": "2020-07-20T20:05:34+00:00"
+>>>>>>> 418e86340a690e3fc89ef88810b971cbe12670f2
         },
         {
             "name": "phpdocumentor/type-resolver",

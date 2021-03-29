@@ -81,7 +81,7 @@ class AuthController extends Controller
         if ($user->roles == "PETUGAS") {
              return ResponseFormatter::error(401,'Your roles is PETUGAS');
         } else {
-   
+
         return fractal()
             ->item($user)
             ->transformWith(new UserTransformer)
@@ -132,5 +132,5 @@ class AuthController extends Controller
             ->toArray();
     }
 
-    
+
 }
